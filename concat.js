@@ -1,7 +1,7 @@
 function concat(array1, array2){
-  let ar2 = array2.length;
+  let len = array2.length;
   let results = array1;
-  for(let i=0; i < ar2; i++){
+  for(let i=0; i < len; i++){
     results.push(array2[i]);
   }
   return results;
