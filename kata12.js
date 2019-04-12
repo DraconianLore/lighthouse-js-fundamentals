@@ -138,9 +138,12 @@ const makeCase = function(input, style) {
     }
     return (converted);
   };
+
+  // Check if style is an array, and if not make it an array
   if (!Array.isArray(style)) {
     style = [style];
   }
+  // Apply each style
   for (i = 0; i < style.length; i++) {
     switch(style[i]) {
       case "camel":
