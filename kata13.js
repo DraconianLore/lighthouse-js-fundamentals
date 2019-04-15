@@ -25,6 +25,7 @@ const urlDecode = function(text) {
   for (c = 0; c < workingString2.length -1; c = c + 2) {
     decodedString[workingString2[c]] = workingString2[c+1];
   }
+  // Return objects
   return (decodedString);
 };
 
